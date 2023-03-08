@@ -1,5 +1,2 @@
 #!/bin/bash 
-cwd=$(pwd) 
-abs_path=$(readlink -f $cwd)
-
-echo $abs_path
+cwd=$(pwd); abs_path=$(readlink -f $cwd); echo $abs_path
