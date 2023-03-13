@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Store the content of iacta in an array
+mapfile -t lines < iacta
+
+# Print the third line
+echo "${lines[2]}"

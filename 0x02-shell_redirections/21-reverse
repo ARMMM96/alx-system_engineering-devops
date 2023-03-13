@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Enter input: "
+read input
+
+output=$(echo $input | rev)
+
+echo "Output: $output"

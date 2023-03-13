@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Task 1: Sort words alphabetically
+sort | tee sorted_words.txt
+
+# Task 2: Print only unique words
+uniq -u sorted_words.txt | tee unique_words.txt
+
+# Task 3: Print only words that appear exactly once
+uniq -c sorted_words.txt | awk '$1 == 1 {print $2}' | sort | tee unique_words_count.txt
+
+# Clean up temporary files
+rm sorted_words.txt unique_words.txt
