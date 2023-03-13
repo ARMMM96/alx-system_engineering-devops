@@ -1,6 +1,4 @@
+
 #!/bin/bash
-{
-    cat /etc/passwd
-    cat /etc/hosts
-} | sort
+cat /etc/passwd /etc/host  | sort
 
