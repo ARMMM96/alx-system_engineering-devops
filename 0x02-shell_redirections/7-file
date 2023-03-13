@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Use echo to write "Best School" to a file with a special name
-echo "Best School" > '*\'"'"'Best School'"'"'\'*"$?*****:)'
-
-# Add a newline to the end of the file
-echo >> '*\'"'"'Best School'"'"'\'*"$?*****:)'
-
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)

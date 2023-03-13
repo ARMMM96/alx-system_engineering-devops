@@ -1,8 +1,2 @@
 #!/bin/bash
-
-echo "Enter input: "
-read input
-
-output=$(echo $input | tr Ac Ze)
-
-echo "Output: $output"
+tr "A" "Z" | tr "c" "e"

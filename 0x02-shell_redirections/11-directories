@@ -1,3 +1,2 @@
 #!/bin/bash
-numdirs=$(find . -mindepth 1 -maxdepth 1 -type d -not -name '.*' | wc -l)
-echo "Number of directories and subdirectories in $(pwd): $numdirs"
+find . -type d -not -name '.' | wc -l

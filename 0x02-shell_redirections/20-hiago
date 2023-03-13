@@ -1,8 +1,2 @@
 #!/bin/bash
-
-echo "Enter input: "
-read input
-
-output=$(echo $input | tr -d 'cC')
-
-echo "Output: $output"
+tr -d "Cc"
